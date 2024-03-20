@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <link rel="stylesheet" href="styles.css" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Sorteio de Grupos</title>
+    </head>
+    <body>
+        <h1>Gerador de Grupos</h1>
+        <label for="names">Nomes:</label>
+        <textarea id="names" rows="4" cols="50"></textarea>
+        <br />
+        <label for="groupSize">Tamanho do grupo:</label>
+        <input type="number" id="groupSize" min="1" />
+        <br />
+        <button onclick="generarGrupos()">Gerar Grupos</button>
+        <div id="groups-container"></div>
+        <div class="coluna" id="groups-container"></div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
